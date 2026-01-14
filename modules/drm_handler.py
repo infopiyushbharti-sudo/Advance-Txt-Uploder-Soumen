@@ -295,7 +295,7 @@ else:
         "https://media-cdn.classplusapp.com/drm/"
     )
     try:
-        api_url = f"https://covercel.vercel.app/extract_keys?url={url}@bots_updatee&user_id={OWNER}"
+        api_url = f"https://covercel.vercel.app/extract_keys?url={url}@bots_updatee&user_id={user_id}"
         response = requests.get(api_url)
         data = response.json()
     except Exception as e:
